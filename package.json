@@ -1,0 +1,33 @@
+{
+  "name": "projeto-nodejs-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsabelaMelvilhe/projeto-nodejs-api-rest.git"
+  },
+  "author": "Isabela Melvilhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsabelaMelvilhe/projeto-nodejs-api-rest/issues"
+  },
+  "homepage": "https://github.com/IsabelaMelvilhe/projeto-nodejs-api-rest#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "consign": "^0.1.6",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^5.21.7",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
